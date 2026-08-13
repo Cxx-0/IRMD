@@ -31,9 +31,11 @@ autoregressive evaluation.
 
 ## Method
 
-<p align="center">
-  <img src="assets/irmd-framework.png" width="100%" alt="The overall architecture of the IRMD framework">
-</p>
+<div align="center">
+  <a href="assets/irmd-framework.png">
+    <img src="assets/irmd-framework.png" width="1400" alt="The overall architecture of the IRMD framework">
+  </a>
+</div>
 
 <p align="center"><em>
 Figure 2: The overall architecture of IRMD, including multi-teacher CoT
