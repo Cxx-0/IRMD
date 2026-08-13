@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "IRMD: Autoregressive Full Reasoning Reproduction"
+message: "Please cite the IRMD paper when using this reproduction."
+type: software
+authors:
+  - family-names: Lu
+    given-names: Weihai
+  - family-names: Cui
+    given-names: Xiaoxi
+  - family-names: Yin
+    given-names: Chenke
+repository-code: "https://github.com/Cxx-0/IRMD"
+preferred-citation:
+  type: conference-paper
+  title: "Think, But Don't Tell: Implicit Reasoning for LLM-based Sequential Recommendation via Multi-Teacher Distillation"
+  authors:
+    - family-names: Lu
+      given-names: Weihai
+    - family-names: Cui
+      given-names: Xiaoxi
+    - family-names: Yin
+      given-names: Chenke
+  year: 2026
+  conference:
+    name: "The 49th International ACM SIGIR Conference on Research and Development in Information Retrieval"
+  doi: "10.1145/3805712.3809758"

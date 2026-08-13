@@ -1,0 +1,7 @@
+torch>=2.1
+transformers==4.47.1
+peft==0.14.0
+accelerate==1.2.1
+safetensors>=0.4.5
+numpy>=1.24
+# Install llama-cpp-python separately for your CPU/CUDA platform.

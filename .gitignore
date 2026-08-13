@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+runs/
+models/
+offload/
+*.safetensors
+*.pt
+*.bin
+*.gguf
+data/Beauty/full/
+data/metadata/
+reasoning/*.jsonl
