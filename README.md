@@ -31,17 +31,15 @@ autoregressive evaluation.
 
 ## Method
 
-```mermaid
-flowchart LR
-    A["Sequential interactions"] --> B["Three Qwen2.5-14B teachers"]
-    B --> C["Recommendation reasoning candidates"]
-    C --> D["Confidence and correctness filtering"]
-    D --> E["Diversity filtering"]
-    E --> F["Qwen2.5-1.5B LoRA student"]
-    A --> F
-    F --> G["Constrained beam search"]
-    G --> H["Top-K item recommendations"]
-```
+<p align="center">
+  <img src="assets/irmd-framework.png" width="100%" alt="The overall architecture of the IRMD framework">
+</p>
+
+<p align="center"><em>
+Figure 2: The overall architecture of IRMD, including multi-teacher CoT
+synthesis, dual-constraint rejection sampling, and annealing-scheduled
+reasoning distillation.
+</em></p>
 
 ### 1. Autoregressive recommendation base
 
